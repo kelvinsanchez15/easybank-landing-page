@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+html,
+body {
+  font-size: 18px;
+}
+
+@tailwind utilities;
