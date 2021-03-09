@@ -40,9 +40,6 @@ module.exports = {
           '2xl': '5rem',
         },
       },
-      inset: {
-        '-42.6%': '-42.6%',
-      },
     },
   },
   variants: {
