@@ -9,8 +9,9 @@ const Home: NextPage = () => {
         <title>Easybank</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
-      <div className="fixed z-20 m-auto w-full">
-        <nav className="p-5 bg-white flex z-20">
+
+      <div className="fixed z-50 top-0 w-full bg-white">
+        <nav className="container py-5 flex z-20">
           <div className="flex-grow">
             <img src="/images/logo.svg" alt="easybank logo" />
           </div>
@@ -22,6 +23,10 @@ const Home: NextPage = () => {
       </div>
 
       <Hero />
+      <section className="h-96 bg-blue-600">
+        {/* dummy section */}
+        <div className="container">hey!</div>
+      </section>
       <section className="h-96">{/* dummy section */}</section>
     </>
   );
