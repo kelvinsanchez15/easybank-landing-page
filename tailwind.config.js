@@ -26,6 +26,23 @@ module.exports = {
         'header-mobile': "url('/images/bg-intro-mobile.svg')",
         'image-mockups': "url('/images/image-mockups.png')",
       }),
+      backgroundSize: {
+        'custom-mobile-header-size': '100% 430px',
+        'custom-mobile-mockup-size': 'auto 24rem',
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1.25rem',
+          sm: '2rem',
+          lg: '3rem',
+          xl: '4rem',
+          '2xl': '5rem',
+        },
+      },
+      inset: {
+        '-42.6%': '-42.6%',
+      },
     },
   },
   variants: {
