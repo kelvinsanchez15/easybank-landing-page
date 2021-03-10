@@ -27,7 +27,7 @@ const motivationItems = [
 
 export default function Motivation() {
   return (
-    <section className="py-12 bg-neutral-light-grayish-blue">
+    <section className="py-12 bg-neutral-light-grayish-blue lg:py-24">
       <div className="container text-center lg:text-left">
         <div className="mb-12">
           <h2 className="text-3xl lg:text-4xl text-primary-dark-blue pb-5">

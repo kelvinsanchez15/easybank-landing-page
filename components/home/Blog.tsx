@@ -35,7 +35,7 @@ const articles = [
 
 export default function Blog() {
   return (
-    <section className="py-12">
+    <section className="py-12 lg:py-24">
       <div className="container">
         <h2 className="text-center text-3xl lg:text-4xl text-primary-dark-blue pb-5">
           Latest Articles
