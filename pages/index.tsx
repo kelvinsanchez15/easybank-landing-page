@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import Hero from '../components/home/Hero';
 import Motivation from '../components/home/Motivation';
 import Blog from '../components/home/Blog';
+import Footer from '../components/layout/Footer';
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
       <Hero />
       <Motivation />
       <Blog />
-      <section className="h-96">{/* dummy section */}</section>
+      <Footer />
     </>
   );
 };
