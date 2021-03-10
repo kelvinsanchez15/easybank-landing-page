@@ -8,3 +8,11 @@ body {
 }
 
 @tailwind utilities;
+
+@layer utilities {
+  @variants hover, focus {
+    .button-brightness {
+      box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+    }
+  }
+}
