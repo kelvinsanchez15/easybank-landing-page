@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
 import Hero from '../components/home/Hero';
+import Motivation from '../components/home/Motivation';
+import Blog from '../components/home/Blog';
 
 const Home: NextPage = () => {
   return (
@@ -23,10 +25,8 @@ const Home: NextPage = () => {
       </div>
 
       <Hero />
-      <section className="h-96 bg-blue-600">
-        {/* dummy section */}
-        <div className="container">hey!</div>
-      </section>
+      <Motivation />
+      <Blog />
       <section className="h-96">{/* dummy section */}</section>
     </>
   );
