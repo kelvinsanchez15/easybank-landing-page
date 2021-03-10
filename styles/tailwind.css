@@ -4,6 +4,7 @@
 html,
 body {
   font-size: 18px;
+  @apply bg-neutral-very-light-gray;
 }
 
 @tailwind utilities;
