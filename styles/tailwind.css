@@ -12,7 +12,19 @@ body {
 @layer utilities {
   @variants hover, focus {
     .button-brightness {
-      box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+      box-shadow: inset 0 0 28px 12px rgba(255, 255, 255, 0.3);
+    }
+    .gradient-border-bottom {
+      color: hsl(233, 8%, 62%);
+      border-width: 0 0 4px 0;
+      border-style: solid;
+      border-color: black;
+      border-image: linear-gradient(
+          to right,
+          hsl(136, 65%, 51%),
+          hsl(192, 70%, 51%)
+        )
+        3;
     }
   }
 }
