@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
+import Navbar from '../components/layout/Navbar';
 import Hero from '../components/home/Hero';
 import Motivation from '../components/home/Motivation';
 import Blog from '../components/home/Blog';
@@ -13,18 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <div className="fixed z-50 top-0 w-full bg-white">
-        <nav className="container py-5 flex z-20">
-          <div className="flex-grow">
-            <img src="/images/logo.svg" alt="easybank logo" />
-          </div>
-
-          <button>
-            <img src="/icons/icon-hamburger.svg" alt="" />
-          </button>
-        </nav>
-      </div>
-
+      <Navbar />
       <Hero />
       <Motivation />
       <Blog />
