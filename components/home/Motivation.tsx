@@ -29,14 +29,16 @@ export default function Motivation() {
   return (
     <section className="py-12 bg-neutral-light-grayish-blue lg:py-24">
       <div className="container text-center lg:text-left">
-        <div className="mb-12">
-          <h2 className="text-3xl lg:text-4xl text-primary-dark-blue pb-5">
-            Why choose Easybank?
-          </h2>
-          <p className="text-neutral-grayish-blue text-sm font-light lg:text-base leading-5">
-            We leverage Open Banking to turn your bank account into your
-            financial hub. Control your finances like never before.
-          </p>
+        <div className="grid lg:grid-cols-2 mb-12">
+          <div className="col-span-1">
+            <h2 className="text-3xl lg:text-4xl text-primary-dark-blue pb-5">
+              Why choose Easybank?
+            </h2>
+            <p className="text-neutral-grayish-blue text-sm font-light lg:text-base leading-5">
+              We leverage Open Banking to turn your bank account into your
+              financial hub. Control your finances like never before.
+            </p>
+          </div>
         </div>
         <div className="grid grid-cols-1 gap-9 lg:grid-cols-4">
           {motivationItems.map((item) => (
