@@ -27,8 +27,8 @@ module.exports = {
         'image-mockups': "url('/images/image-mockups.png')",
       }),
       backgroundSize: {
-        'custom-mobile-header-size': '100% 430px',
-        'custom-mobile-mockup-size': 'auto 24rem',
+        'custom-mobile-header-size': '100% 50%',
+        'custom-mobile-mockup-size': 'auto 60%',
       },
       container: {
         center: true,

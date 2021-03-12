@@ -15,8 +15,8 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <div className="relative overflow-hidden">
-        <div className="w-full h-full absolute">
-          <div className="bg-image-mockups absolute z-20 w-full h-full bg-no-repeat bg-custom-mobile-mockup-size bg-top lg:bg-auto lg:bg-right-top lg:-right-72 xl:-right-28"></div>
+        <div className="hidden lg:block w-full h-full absolute">
+          <div className="bg-image-mockups absolute z-20 w-full h-full bg-no-repeat bg-auto bg-right-top -right-72 xl:-right-28"></div>
         </div>
         <Hero />
         <Motivation />
