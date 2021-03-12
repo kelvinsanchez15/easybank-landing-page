@@ -59,22 +59,22 @@ export default function Footer() {
           </div>
 
           <div className="grid grid-cols-1 gap-2 py-1 lg:grid-rows-3 text-white text-sm lg:text-left lg:justify-self-start lg:col-span-5 lg:gap-x-24 lg:grid-flow-col-dense">
-            <a className="hover:text-green-300" href="#">
+            <a className="hover:text-green-400" href="#">
               About Us
             </a>
-            <a className="hover:text-green-300" href="#">
+            <a className="hover:text-green-400" href="#">
               Contact
             </a>
-            <a className="hover:text-green-300" href="#">
+            <a className="hover:text-green-400" href="#">
               Blog
             </a>
-            <a className="hover:text-green-300" href="#">
+            <a className="hover:text-green-400" href="#">
               Careers
             </a>
-            <a className="hover:text-green-300" href="#">
+            <a className="hover:text-green-400" href="#">
               Support
             </a>
-            <a className="hover:text-green-300" href="#">
+            <a className="hover:text-green-400" href="#">
               Privacy Policy
             </a>
           </div>
