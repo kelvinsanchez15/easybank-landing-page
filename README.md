@@ -4,7 +4,7 @@
 
 ## About the project
 
-Fully responsive SAAS product landing page designed with Tailwind CSS. Made as part of this [Frontend Mentor challenge](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwind-apt74__Nl).
+Fully responsive SAAS product landing page designed with Tailwind CSS. Made as part of a [Frontend Mentor challenge](https://www.frontendmentor.io/solutions/responsive-landing-page-using-tailwind-apt74__Nl).
 
 ## Features
 
