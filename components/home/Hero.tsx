@@ -15,7 +15,7 @@ export default function Hero() {
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
             </p>
-            <button className="bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness mb-7">
+            <button className="bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness mb-7 focus:outline-none focus:ring ring-green-400">
               Request Invite
             </button>
           </div>
