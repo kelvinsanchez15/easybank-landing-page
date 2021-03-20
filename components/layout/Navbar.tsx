@@ -49,7 +49,7 @@ export default function Navbar() {
       >
         <div className="bg-white text-primary-dark-blue flex flex-col text-center mx-5 my-20 py-4 rounded">
           {navItems.map((navItem) => (
-            <a className="py-2" href="#">
+            <a key={navItem} className="py-2" href="#">
               {navItem}
             </a>
           ))}
